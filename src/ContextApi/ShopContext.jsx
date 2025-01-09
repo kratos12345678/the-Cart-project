@@ -9,11 +9,11 @@ export const context = createContext(null);
 export default function ShopProvider(props){
 
 
-    const contentvalue = {content};
+    const contextvalue = {content};
 
     return(
 
-        <context.Provider value={contentvalue} >
+        <context.Provider value={contextvalue} >
 
             {props.children} 
 
